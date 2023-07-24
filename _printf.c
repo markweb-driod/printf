@@ -1,7 +1,7 @@
 /** jkprintf - Custom printf function working according to ALX specification
  *
  */
-#include "header.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdarg.h>
 int _printf(const char *format, ...)
