@@ -7,5 +7,5 @@
 
 /** all function prototype comes here */
 int jkputchar(char a);
-int jkprintf(const char *format, ...);
+int _printf(const char *format, ...);
 #endif

@@ -4,7 +4,7 @@
 #include "header.h"
 #include <stdio.h>
 #include <stdarg.h>
-int jkprintf(const char *format, ...)
+int _printf(const char *format, ...)
 {
         int ratval= 0;
         int count=0;
