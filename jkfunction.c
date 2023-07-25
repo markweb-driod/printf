@@ -6,7 +6,7 @@
 * Return: Return string count to be added to previous count
 */
 
-int function(char *sentstring)
+int jkfunction(char *sentstring)
 {
 	int element, retval;
 

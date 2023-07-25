@@ -12,21 +12,10 @@ int main(void)
 	int len;
 	int len2;
 
-	/* unsinged int ui; */
-	/* void *addr: */
-
-	/*int retval1, retval2; */
-	/*char n[]= Testing";*/
-	/*retval1 = jkprintf(A\n");*/
-	/*retval1 = jkputchar(n[4]);*/
-
 	len = _printf("Let's try to printf a simple sentence.\n");
 	len2 = printf("Let's try to printf a simple sentence.\n");
 	printf("%d is the lenght of printf \n", len2);
 	printf("%d is the lenght of our printf \n", len);
-	/*
-	 * printf("return value for putchar is: %d and printf is %d\n",
-	 * retval1, retval2)
-	 */
+
 	return (0);
 }

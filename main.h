@@ -4,7 +4,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-int function(char *sentstring);
+int jkfunction(char *sentstring);
 int jkputchar(char a);
 int _printf(const char *format, ...);
 
