@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- * _printf - custon printf function working according to ALX specificatio
- * Return : the character counter to be returned
- * @*format: format spicifier of the print parameter
+ * _printf - custon printf function working according to ALX specification
+ * * @format: format of strings to be printed
+ * Return: Printed chars
  */
 
 int _printf(const char *format, ...)
