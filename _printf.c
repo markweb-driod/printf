@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * jkprintf - custon printf function working according to ALX specification 
+ * jkprintf - custon printf function working according to ALX specification
  * @ratval : the character counter to be returned
  */
 
@@ -19,8 +19,8 @@ int _printf(const char *format, ...)
 	{
 		if (format[count] != '%')
 		{
-			jkputchar(format [count]);
-			ratval- ratval + 1;
+			jkputchar(format[count]);
+			ratval - ratval + 1;
 		}
 		count++;
 	}
