@@ -1,8 +1,8 @@
 /**
  * jkputchar - writes the character c to stdout
- * @a: The character to printto stndard output
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * @a: the charactar to print t to stndard output
+ * Return: on success 1
+ * On error, -1 is returned, a dn erro no is set appropriately
  */
 
 #include "main.h"
