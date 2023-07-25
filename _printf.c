@@ -36,9 +36,6 @@ int _printf(const char *format, ...)
 <<<<<<< HEAD
 			ratval - ratval + 1;
 =======
-
-			ratval =  ratval + 1;
-
 >>>>>>> 02421e8d5271acffd23cd367488752eae0c52323
 		}
 		else if (format[count + 1] == 'c')
