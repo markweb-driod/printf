@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 		else if (format[count + 1] == '%')
 		{
 			jkputchar('%');
-			count++
+			count++;
 		}
 		ratval = ratval + 1;
 		count++;
