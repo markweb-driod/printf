@@ -25,6 +25,11 @@ int _printf(const char *format, ...)
 			jkputchar(format[count]);
 			ratval = ratval + 1;
 		}
+		else if ((format[count + 1] == 'd') || (format[count + 1] == 'i'))
+		{
+			ret_valinner = deci_recursion(va_arg(args, int));
+			count++;
+ 		}
 		else if (format[count + 1] == 'c')
 		{
 			jkputchar(va_arg(args, int));
