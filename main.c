@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int main (void)
+int main(void)
 {
 	int len;
 	int len2;
@@ -18,6 +18,9 @@ int main (void)
 	len2 = printf("Let's try to printf a simple sentence.\n");
 	printf("%d is the lenght of printf \n", len2);
 	printf("%d is the lenght of our printf \n", len);
-	/*printf("return value for putchar is: %d and printf is %d\n", retval1, retval2):
-	 return (0);
-
+	/*
+	 * printf("return value for putchar is: %d and printf is %d\n",
+	 * retval1, retval2)
+	 */
+	return (0);
+}
