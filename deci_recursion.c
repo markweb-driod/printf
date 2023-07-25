@@ -5,19 +5,19 @@
  * Return: Always 0 (Success)
  */
 
-int deci_recursion(int number)
+int deci_recursion(int number, int ratval)
 {
 	int k;	
-	int ratval;
 
 	k = 0;
-	ratval = 0;
 
 	if (number == 0)
+	{
 		return (0);
+	}
 	k = number / 10;
 	ratval = ratval + 1;
-	deci_recursion(k);
+	deci_recursion(k, ratval);
 	jkputchar(number % 10 + '0');
 	return (ratval);
 }

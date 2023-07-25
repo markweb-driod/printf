@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
-int deci_recursion(int number);
+int deci_recursion(int number, int ratval);
 int jkputchar(char a);
 int _printf(const char *format, ...);
 int jkfunction(char *sentstring);
