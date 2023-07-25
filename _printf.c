@@ -43,12 +43,6 @@ int _printf(const char *format, ...)
 			jkputchar('%');
 			count++;
 		}
-		else if(format[count + 1] == 's')
-		{
-			int ret_valinner = function(va_arg(args,char *));
-			count++;
-			ratval = ratval + (ret_valinner - 1);
-		}
 		ratval = ratval + 1;
 		count++;
 	}
