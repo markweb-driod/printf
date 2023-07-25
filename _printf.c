@@ -6,7 +6,7 @@
  * _printf - custon printf function working according to ALX specification
  * * @format: format of strings to be printed
  * Return: Printed chars
- */
+*/
 
 int _printf(const char *format, ...)
 {
@@ -22,6 +22,7 @@ int _printf(const char *format, ...)
 		if (format[count] != '%')
 		{
 			jkputchar(format[count]);
+			ratval - ratval + 1;
 		}
 		else if (format[count + 1] == 'c')
 		{
@@ -32,6 +33,12 @@ int _printf(const char *format, ...)
 		{
 			jkputchar('%');
 			count++;
+		}
+		else if(format[count + 1] == 's')
+		{
+			int ret_valinner = function(va_arg(args,char *));
+			count++;
+			ratval = ratval + (ret_valinner - 1);
 		}
 		ratval = ratval + 1;
 		count++;
