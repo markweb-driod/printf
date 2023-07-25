@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
 * jkfunction - strings function to handle string printing
 * @sentstring: String parameter sent to the function
@@ -10,7 +10,8 @@ int jkfunction(char *sentstring)
 {
 	int element, retval;
 
-	element = retval = 0;
+	element = 0;
+	retval = 0;
 
 	if (sentstring)
 	{

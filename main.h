@@ -3,9 +3,10 @@
 
 #include <stdarg.h>
 #include <unistd.h>
+#include <stdio.h>
 
-int jkfunction(char *sentstring);
 int jkputchar(char a);
 int _printf(const char *format, ...);
+int jkfunction(char *sentstring);
 
 #endif
