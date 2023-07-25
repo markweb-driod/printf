@@ -1,7 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
-* function - strings function to handle string printing
+* jkfunction - strings function to handle string printing
 * @sentstring: String parameter sent to the function
 * Return: Return string count to be added to previous count
 */

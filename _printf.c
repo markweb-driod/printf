@@ -3,24 +3,16 @@
 #include <stdarg.h>
 
 /**
-<<<<<<< HEAD
  * _printf - custon printf function working according to ALX specification
- * * @format: format of strings to be printed
+ * @format: format of strings to be printed
  * Return: Printed chars
 */
-/** format: the string format specifier
- * ...: variable number of arguments
- * jkprintf - custon printf function working according to ALX specification
- * @ratval: the character counter to be returned
- * _printf: custon printf function working according to ALX specificatio
- * Returns: the character counter to be returned
- */
-
 int _printf(const char *format, ...)
 
 {
 	int ratval = 0;
 	int count = 0;
+	int ret_valinner = 0;
 
 	va_list args;
 
@@ -43,12 +35,12 @@ int _printf(const char *format, ...)
 			jkputchar('%');
 			count++;
 		}
-		else if(format[count + 1] == 's')
-                {
-                        int ret_valinner = jkfunction (va_arg(args, char*));
-                        count++;
-                        ratval = ratval + (ret_valinner - 1);
-                }
+		else if (format[count + 1] == 's')
+		{
+			ret_valinner = jkfunction(va_arg(args, char*));
+			count++;
+			ratval = ratval + (ret_valinner - 1);
+		}
 		ratval = ratval + 1;
 		count++;
 	}
