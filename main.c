@@ -22,7 +22,7 @@ _printf("Length:[%d, %i]\n", len, len);
 printf("Length:[%d, %i]\n", len2, len2);
 _printf("Negative:[%d]\n", -762534);
 printf("Negative:[%d]\n", -762534);
-    _printf("Unsigned:[%u]\n", ui);
+   _printf("Unsigned:[%u]\n", ui);
     printf("Unsigned:[%u]\n", ui);
     _printf("Unsigned octal:[%o]\n", ui);
     printf("Unsigned octal:[%o]\n", ui);
@@ -39,6 +39,6 @@ printf("Negative:[%d]\n", -762534);
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
     _printf("Unknown:[%r]\n");
-    printf("Unknown:[%r]\n");
-    return (0);
+	printf("Unknown:[%r]\n");
+	return (0);
 }
