@@ -3,7 +3,7 @@
 
 #include <stdarg.h>
 #include <unistd.h>
-#include <stdio.h>
+
 
 int deci_recursion(int number, int ratval);
 int jkputchar(char a);
